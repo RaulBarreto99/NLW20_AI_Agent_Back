@@ -11,7 +11,7 @@ import { getRoomsRoute } from './htttp/routes/get-rooms.ts'
 const app = fastify().withTypeProvider<ZodTypeProvider>()
 
 app.register(fastifyCors, {
-  origin: 'localhost:5173',
+  origin: 'http://localhost:5173',
 })
 
 app.setSerializerCompiler(serializerCompiler)
