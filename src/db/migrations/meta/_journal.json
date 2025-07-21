@@ -15,6 +15,13 @@
       "when": 1752169820080,
       "tag": "0001_fat_mauler",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752716894457,
+      "tag": "0002_blushing_gabe_jones",
+      "breakpoints": true
     }
   ]
 }
